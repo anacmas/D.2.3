@@ -1,5 +1,5 @@
 .rodape {
-    padding: 4% 0;
+    padding: 4% 0 0 2%;
     background-color: #f8f8f8;
     display: flex;
     flex-direction: column;
@@ -32,6 +32,7 @@
 
 .fundo-icone-redes:hover {
     opacity: 50%;
+    transition: 0.3s;
 }
 
 .fundo-icone-redes:active {
@@ -53,4 +54,31 @@
     display: flex;
     width: 50%;
     justify-content: space-around;
+}
+
+.copyright {
+    display: inline;
+    align-content: center;
+    color: #c983b4;
+    font-family: var(--fonte-principal);
+}
+
+.copyright-link {
+    color: #c983b4;
+    font-weight: 700;
+    margin-bottom: 1%;
+}
+
+.copyright-link:hover {
+    opacity: 50%;
+    transition: 0.3s;
+}
+
+.copyright-link:active {
+    filter: invert(100%);
+}
+
+.copyright-link:visited {
+    color: #c983b4;
+    text-decoration: none;
 }
